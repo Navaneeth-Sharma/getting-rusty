@@ -1,3 +1,6 @@
+#[macro_use]
+pub mod fizbuzz;
+
 pub fn add(left: usize, right: usize) -> usize {
     left + right
 }
