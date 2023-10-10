@@ -1,5 +1,7 @@
 #[macro_use]
 pub mod fizbuzz;
+pub mod softmax;
+pub mod leaky_relu;
 
 pub fn add(left: usize, right: usize) -> usize {
     left + right
